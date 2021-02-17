@@ -4,6 +4,38 @@ The Deadlock Empire
 A game that teaches locking and concurrency. It runs on
 [https://deadlockempire.github.io](https://deadlockempire.github.io).
 
+Adaptation
+===
+
+This fork was adapted for KULeuven's 2nd bachelor Operating Systems and C course, which doesn't teach C# but plain C and pthreads.
+
+The following exercises are NOT fit for these students and should be skipped:
+- Everything in "High-Level Synchronization Primitives"
+- Condition variables (.PulseAll)
+- Boss fight (.Pulse)
+
+Explain beforehand:
+- What are threads?
+- What is a critical section?
+- What are atomic operations?
+
+Progression in class:
+- Show: Tutorial 1
+- Show: Boolean Flags Are Enough For Everyone
+- Show: Simple Counter
+- Show: Tutorial 2
+- Exercise: Confused Counter
+- Explain: concepts behind locks
+- Show: Insufficient lock
+- Show: Deadlock
+- Exercise: A more complex thread
+- Explain: semaphores
+- Show: Semaphores
+- Show: Producer-Consumer
+- Show: Producer-Consumer (Variant)
+- Take-home task: Dragonfire
+- Take-home task: Triple Danger
+
 Contributing
 ===
 
